@@ -61,8 +61,14 @@ footer {
 @media (min-width: 768px) {
   header {
     background-color: #00FFFF;
+    width: 50%;
+    height: 320px;
+    float: left;
   }
-
+  .col-3 {
+    width: 50%;
+    float: left;
+  }
   #column-1 {
     background-color: #88ff99;
   }
@@ -86,8 +92,12 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: #fca68a;
+    width: 100%;
+    height: 300px;
   }
-
+  .col-3 {
+    width: 33.3333%;
+  }
   #column-1 {
     background-color: #00FFFF;
   }
